@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman HTML Tentang Diri Saya</title>
+    <style>
+        /* digunakan untuk style huruf */
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .center { text-align: center; }
+        .right { text-align: right; }
+        .blue-text { color:blue; }
+         /* gaya membuat gambar di tengah dan menjadi wadah dari sebuah gambar  */
+        .image-container {
+            text-align: center;
+        }
+
+        .image-container img {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body style="background-color:papayawhip">
+    
+    <h1 class="center">Selamat Datang di Halaman Saya</h1>
+    <hr>
+    <p class="center">Ini adalah contoh halaman HTML <br>dengan berbagai fitur.</p>
+    <hr>
+    <p>Halo semuanya! Perkenalkan,<br>saya <b>Aloysius Alfredo Widiantoro</b>, seorang mahasiswa <i>Universitas Sanata Dharma</i> berusia 20 tahun.Saat ini, saya sedang menjalani kuliah di Jogja dan tinggal di <u>daerah Alun-Alun Kidul.</u>
+     Setelah selesai kelas, kadang saya menyempatkan diri bermain bola buat refreshing. Saking sibuknya dengan aktivitas kuliah dan olahraga, saya bahkan sering lupa pulang ke rumah dan makan! 😅</p>
+    <hr>
+
+    <h2>Paragraf dengan Berbagai Rata</h2>
+    <p class="left"><b>Ini adalah paragraf dengan rata kiri.</b></p>
+    <p class="center"><i>Ini adalah paragraf dengan rata tengah.</i></p>
+    <p class="right"><u>Ini adalah paragraf dengan rata kanan.</u></p>
+    <hr>
+    
+    <!-- menggunakan kata kata penekanan -->
+    <h2>Kata - Kata Motivasi</h2>
+    <p><strong>Jangan ragu untuk memulai hal baru!</strong></p>
+    <p><Strong>Impian tidak akan terwujud jika hanya di pikirkan!</Strong> <em>Ambil tindakan sekarang!</em></p>
+    <p><strong>Setiap kesuksesan dimulai dari satu langkah pertama</strong></p>
+    <hr>
+
+    <!-- mengguanakan berbagai huruf dan  satu color -->
+    <h2>Formatting Teks</h2>
+    <p><b>Selamat datang </b>, <i>di perogram</i>, <u>HTML pertama</u>, <span class="blue-text">Saya yaitu Aloysius Alfredo Widiantoro</span>.</p>
+    <hr>
+    
+    <!-- menggunakan metode List -->
+    <h2>Daftar</h2>
+    <h3>Daftar Berurutan</h3>
+    <ol type="i">
+        <li>Pertama</li>
+        <li>Kedua</li>
+        <li>Ketiga</li>
+    </ol>
+    
+    <h3>Daftar Tidak Berurutan</h3>
+    <ul type="square">
+        <li>Apel</li>
+        <li>Pisang</li>
+        <li>Jeruk</li>
+    </ul>
+
+    <h3>Daftar Definisi</h3>
+    <dl>
+        <dt><b>HTML</b></dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt><b>CSS</b></dt>
+        <dd>Cascading Style Sheet</dd>
+    </dl>
+    <hr>
+
+    <!-- menggunakan metode Image -->
+    <h2>Foto saya bersama pacar saya</h2>
+    <div class="image-container">
+        <img src="../images/fotoSaya.jpg" alt="Foto saya dan pacar saya" width="500">
+    </div>
+    <hr>
+    
+    <!-- menggunakan metode Image -->
+    <h2>Gambar Favorit</h2>
+    <div class="image-container">
+        <img src="../images/images.jpeg" alt="Gambar Favorit Saya" width="500">
+    </div>
+    <!-- sebagai garis horisontal -->
+    <hr>
+    
+    <!-- bagian tautan ini saya menggunakan metode HyperLink -->
+    <h2>Tautan</h2>
+    <p>Klik <a href="https://www.google.com" target="_blank"><b>disini</b></a> untuk mencari informasi lebih lanjut.</p>
+    <hr>
+
+    <!-- Media sosial ini saya menggunakan metode HyperLink -->
+    <h2>Media Sosial</h2>
+    <p>Ikuti saya di Instagram: <a href="https://www.instagram.com/tglalfa4" target="_blank"><b>Instagram Saya</b></a></p>
+    <p>Lihat proyek saya di GitHub: <a href="https://github.com/alfawidiantoro" target="_blank"><b>GitHub Saya</b></a></p>
+    <p>Ikuti Saya di Tiktok: <a href="https://www.tiktok.com/@tglalfa1" target="_blank"><b>Tiktok Saya</b></a></p>
+    <hr>
+
+    
+    <h2>Tabel Informasi</h2>
+    <table border="5" cellspacing="1" cellpadding="15" style="width:50%">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Hobi</th>
+        </tr>
+        <tr>
+            <td>Acha</td>
+            <td>18</td>
+            <td>Memasak</td>
+        </tr>
+        <tr>
+            <td>Budi</td>
+            <td>30</td>
+            <td>Fotografi</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- menggunakan rowspan dan colspan -->
+    <h2>Table Merging</h2>
+    <table border="5" cellspacing="1" cellpadding="15" style="width:50%">
+    <tr>
+        <td rowspan="3">rowspan 3</td>
+        <td colspan="2">colspan 2</td>   
+    </tr>
+    <tr>
+        <td>2,2</td>
+        <td>2,3</td>
+    </tr>
+    <tr>
+        <td>3,2</td>
+        <td>3,3</td>
+    </tr>
+    </table>
+    <hr>
+    
+    <h2>Formulir</h2>
+    <form>
+        <table cellpadding="5">
+            <tr>
+                <td><label for="nama">Nama:</label></td>
+                <td><input type="text" id="nama" name="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td>
+                    <input type="radio" id="laki-laki" name="jenisKelamin">
+                    <label for="laki-laki">Laki-laki</label>
+                    <input type="radio" id="perempuan" name="jenisKelamin">
+                    <label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi:</td>
+                <td>
+                    <input type="checkbox" id="Menyanyi"><label for="Menyanyi">Menyanyi</label>
+                    <input type="checkbox" id="Berenang"><label for="Berenang">Berenang</label>
+                    <input type="checkbox" id="ngoding"><label for="ngoding">Ngoding</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="provinsi">Provinsi:</label></td>
+                <td>
+                    <select id="provinsi">
+                        <option>NTT</option>
+                        <option>Sulawesi</option>
+                        <option>Padang</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="pesan">Pesan:</label></td>
+                <td><textarea id="pesan" name="pesan" rows="4" cols="50"></textarea></td>
+                
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Kirim!</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+
+    
+</body>
+</html>
